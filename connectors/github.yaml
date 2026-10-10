@@ -1,0 +1,7 @@
+kind: native
+description: GitHub, for reading pull requests and issues and posting comments
+fallback:
+  url: https://api.githubcopilot.com/mcp/
+  transport: http
+  auth: bearer
+  secret: GITHUB_TOKEN

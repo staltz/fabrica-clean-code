@@ -1,0 +1,7 @@
+# Socket dependency scoring, via the public Socket MCP server.
+# Cloud runtimes authenticate through OAuth on first connect.
+kind: mcp
+url: https://mcp.socket.dev/
+transport: http
+auth: oauth
+description: Socket, for dependency security scores (depscore and related tools)
